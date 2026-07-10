@@ -133,19 +133,7 @@ nav {
 }
 
 
-.andrej:hover {
-    cursor: pointer;
-}
-
-.demis:hover {
-    cursor: pointer;
-}
-
-.gary:hover {
-    cursor: pointer;
-}
-
-.mustafa:hover {
+.speaker:hover {
     cursor: pointer;
 }
 
@@ -230,10 +218,6 @@ nav {
     padding: 40px 30px;
 }
 
-.white-card:hover {
-    box-shadow: #1a1a1a;
-}
-
 
 .blue-card{
     background-color: #0D1B2A;
@@ -245,9 +229,6 @@ nav {
     padding: 40px 30px;
 }
 
-.blue-card:hover {
-    box-shadow: #1a1a1a;
-}
 
 .w-top {
     font-size: 13px;
