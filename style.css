@@ -33,6 +33,10 @@ nav {
 }
 
 
+.nav-links li a:hover{
+    color: #d75252;
+}
+
 
 .btn {
     border: none;
@@ -138,19 +142,19 @@ nav {
 
 
 .andrej:hover {
-    background-color: #e2e2e2;
+    cursor: pointer;
 }
 
 .demis:hover {
-    background-color: #e2e2e2;
+    cursor: pointer;
 }
 
 .gary:hover {
-    background-color: #e2e2e2;
+    cursor: pointer;
 }
 
 .mustafa:hover {
-    background-color: #e2e2e2;
+    cursor: pointer;
 }
 
 
@@ -235,7 +239,7 @@ nav {
 }
 
 .white-card:hover {
-    background-color: #e2e2e2;
+    box-shadow: #1a1a1a;
 }
 
 
@@ -250,7 +254,7 @@ nav {
 }
 
 .blue-card:hover {
-    background-color: #383838;
+    box-shadow: #1a1a1a;
 }
 
 .w-top {
@@ -344,7 +348,8 @@ hr {
 }
 
 #left-btn:hover {
-    background-color: #333437;
+    background-color: #2563EB;
+    color: #ffffff;
 }
 
 
@@ -364,7 +369,8 @@ hr {
 }
 
 #middle-btn:hover {
-    background-color: #03205f;
+    background-color: #ffffff;
+    color: #2563EB;
 }
 
 
@@ -384,10 +390,9 @@ hr {
 }
 
 #right-btn:hover {
-    background-color: #2563EB;
-    color: white;
+    background-color: #0D1B2A;
+    color: #ffffff;
 }
-
 
 
 
@@ -397,7 +402,6 @@ hr {
 .sponsor-section {
     max-width: 1200px;
     margin: auto;
-    padding: 0px 20px;
     margin-bottom: 150px;
     text-align: center;
 }
@@ -423,7 +427,7 @@ hr {
 .sponsor {
     border: 2px solid #E5E7EB;
     border-radius: 10px;
-    padding: 70px 15px;
+    padding: 10px 0px;
     text-align: center;
 }
 
@@ -433,8 +437,8 @@ hr {
 }
 
 .sponsor-logo {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background-color: #f2f2f2;
     margin: 0 auto 15px auto;
@@ -466,7 +470,7 @@ hr {
 }
 
 .sponsor-tag.silver {
-    color: #9e9e9e;
+    color: #888888;
 }
 
 .sponsor-tag.community {
@@ -489,7 +493,7 @@ footer{
 
 footer a {
   text-decoration: none;
-  color: #6E767F;
+  color: #797676;
 }
 
 .footer-top {
@@ -498,7 +502,7 @@ footer a {
     align-items: center;
     margin: auto;
     gap: 500px;
-    color: #6E767F;
+    color: #797676;
     max-width: 1300px;
 }
 
@@ -512,6 +516,23 @@ footer a {
     padding-bottom: 15px;
 }
 
+.social a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.social img {
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+}
+
 footer hr{
     border: 1px solid #25323F;
     margin: 0;
@@ -521,10 +542,13 @@ footer hr{
     margin: auto;
     text-align: center;
     padding: 15px 0;
-    color: #6E767F
 }
 
 .footer-bottom p{
     font-size: 15px;
     color: #797676;
+}
+
+a:hover{
+    color: #d75252;
 }
