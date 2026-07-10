@@ -139,6 +139,12 @@ nav {
     padding: 5px 5px;
 }
 
+
+.s-middle{ 
+    font-weight: bold;
+    padding: 0 5px;
+}
+
 .s-bottom{
     font-size: 10px; 
     color: rgb(158, 158, 158);
