@@ -11,7 +11,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 15px 0;
+    padding: 20px 0;
     align-items: center;
     max-width: 1300px;
     margin: auto;
@@ -28,20 +28,26 @@ nav {
 
 .nav-links li a {
   text-decoration: none;
-  color: #797676;
+  color: #383838;
+  font-size: 17px;
 }
 
 
 
 .btn {
     border: none;
-    background-color: #146ac7;
+    background-color: #1D4ED8;
     color: #ffffff;
     cursor: pointer;
     border-radius: 10px;
     font-weight: bold;
-    font-size: 15px;
-    padding: 15px 40px;
+    font-size: 17px;
+    padding: 15px 45px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #03205f;
 }
 
 
@@ -131,9 +137,26 @@ nav {
 }
 
 
+.andrej:hover {
+    background-color: #e2e2e2;
+}
+
+.demis:hover {
+    background-color: #e2e2e2;
+}
+
+.gary:hover {
+    background-color: #e2e2e2;
+}
+
+.mustafa:hover {
+    background-color: #e2e2e2;
+}
+
+
 .speaker-cards div{
     border-radius: 10px;
-    border: 2px solid rgb(142, 142, 142);
+    border: 2px solid #E5E7EB;
     overflow: hidden; 
 }
 
@@ -145,21 +168,22 @@ nav {
 
 
 .s-top{
-    font-size: 10px; 
-    color: blue;
-    padding: 5px 5px;
+    font-size: 13px; 
+    color: #2563EB;
+    padding: 2px 15px;
 }
 
 
 .s-middle{ 
     font-weight: bold;
-    padding: 0 5px;
+    padding: 0 15px;
+    color: #0D1B2A;
 }
 
 .s-bottom{
-    font-size: 10px; 
-    color: rgb(158, 158, 158);
-    padding: 5px 5px;
+    font-size: 13px; 
+    color: #575757;
+    padding: 3px 15px;
 }
 
 
@@ -173,7 +197,7 @@ nav {
 
 .price {
     text-align: center;
-    max-width: 1060px;
+    max-width: 1200px;
     align-items: center;
     margin: auto;
     padding: 20px 20px;
@@ -189,7 +213,7 @@ nav {
 
 .price-header p {
     margin-bottom: 20px;
-    color: #7d7d7d;
+    color: #575757;
 }
 
 
@@ -203,56 +227,66 @@ nav {
 .white-card{
     background-color: #ffffff;
     color: #000000;
-    border: 2px solid #535553;
+    border: 2px solid #E5E7EB;
     border-radius: 10px;
     text-align: left;
     margin-top: 20px;
-    padding: 50px 30px;
+    padding: 40px 30px;
+}
+
+.white-card:hover {
+    background-color: #e2e2e2;
 }
 
 
 .blue-card{
-    background-color: #001d47;
+    background-color: #0D1B2A;
     color: #fbfbfb;
-    border: 2px solid #535553;
+    border: 2px solid #E5E7EB;
     border-radius: 10px;
     text-align: left;
     margin-top: 20px;
-    padding: 50px 30px;
+    padding: 40px 30px;
 }
 
-
-
-
+.blue-card:hover {
+    background-color: #383838;
+}
 
 .w-top {
     font-size: 13px;
     margin-bottom: 10px;
-    color: #7d7d7d;
+    color: #888888;
 }
 
 .w-price {
     font-size: 50px;
     font-weight: bold;
     padding-bottom: 10px;
+    color: #0D1B2A;
 }
 
 .w-bottom {
     font-size: 13px;
     margin-bottom: 15px;
-    color: #7d7d7d;
+    color: #888888;
 }
 
 
 hr {
-    border: 1px solid #7d7d7d;
+    border: 1px solid #E5E7EB;
+    margin-bottom: 20px;
+}
+
+.blue-card hr {
+    border: 1px solid #25323F;
     margin-bottom: 20px;
 }
 
 .b-top {
     font-size: 13px;
     margin-bottom: 10px;
-    color: #3b55ff;
+    color: #93C5FD;
 }
 
 
@@ -268,16 +302,28 @@ hr {
 .b-bottom {
     font-size: 13px;
     margin-bottom: 15px;
-    color: #7d7d7d;
+    color: #888888;
 }
 
 
-li{
+.white-card li{
     list-style-position: inside;
+    color: #333333;
 }
 
-li::marker {
-    color: #1524f0;
+
+.blue-card li{
+    list-style-position: inside;
+    color: #CFD1D4;
+}
+
+
+.white-card li::marker {
+    color: #2563EB;
+}
+
+.blue-card li::marker {
+    color: #93C5FD;
 }
 
 
@@ -288,11 +334,17 @@ li::marker {
     align-items: center;
     margin: auto;
     margin-top: 25px;
-    padding: 12px 100px;
-    border: 2px solid #1524f0;
+    padding: 13px 120px;
+    border: 2px solid #2563EB;
     background-color: #ffffff;
     border-radius: 10px;
-    color: #1524f0;
+    color: #2563EB;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#left-btn:hover {
+    background-color: #333437;
 }
 
 
@@ -302,35 +354,50 @@ li::marker {
     align-items: center;
     margin: auto;
     margin-top: 25px;
-    padding: 12px 120px;
-    border: 2px solid #000a91;
-    background-color: #1524f0;
+    padding: 13px 120px;
+    border: 2px solid #2563EB;
+    background-color: #2563EB;
     border-radius: 10px;
     color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
 }
+
+#middle-btn:hover {
+    background-color: #03205f;
+}
+
+
 
 #right-btn{
     display: flex;
     align-items: center;
     margin: auto;
     margin-top: 25px;
-    padding: 12px 100px;
-    border: 2px solid #242424;
+    padding: 13px 120px;
+    border: 2px solid #0D1B2A;
     background-color: #ffffff;
     border-radius: 10px;
-    color: #242424;
+    color: #0D1B2A;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#right-btn:hover {
+    background-color: #2563EB;
+    color: white;
 }
 
 
 
 
 /* Sponsor Section */
-/* Sponsor Section */
+
 
 .sponsor-section {
-    max-width: 1060px;
+    max-width: 1200px;
     margin: auto;
-    padding: 20px 20px;
+    padding: 0px 20px;
     margin-bottom: 150px;
     text-align: center;
 }
@@ -342,7 +409,7 @@ li::marker {
 }
 
 .sponsor-subtitle {
-    color: #7d7d7d;
+    color: #575757;
     margin-top: 15px;
     margin-bottom: 40px;
 }
@@ -354,15 +421,15 @@ li::marker {
 }
 
 .sponsor {
-    border: 2px solid rgb(142, 142, 142);
+    border: 2px solid #E5E7EB;
     border-radius: 10px;
-    padding: 30px 15px;
+    padding: 70px 15px;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .sponsor:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(151, 51, 48, 0.1);
+    background-color: #e2e2e2;
 }
 
 .sponsor-logo {
@@ -415,13 +482,14 @@ li::marker {
 /* Footer Section*/
 
 footer{
-    background-color: #003314;
+    background-color: #0D1B2A;
+    margin-top: 20px;
 }
 
 
 footer a {
   text-decoration: none;
-  color: #797676;
+  color: #6E767F;
 }
 
 .footer-top {
@@ -430,7 +498,7 @@ footer a {
     align-items: center;
     margin: auto;
     gap: 500px;
-    color: #ffffff;
+    color: #6E767F;
     max-width: 1300px;
 }
 
@@ -445,6 +513,7 @@ footer a {
 }
 
 footer hr{
+    border: 1px solid #25323F;
     margin: 0;
 }
 
@@ -452,7 +521,7 @@ footer hr{
     margin: auto;
     text-align: center;
     padding: 15px 0;
-    color: #ffffff;
+    color: #6E767F
 }
 
 .footer-bottom p{
