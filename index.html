@@ -3,12 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assignment 1</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
-    <h2>Hello, World!</h2>
+    <header>
+
+        <nav>    
+            <div>
+                <img src="./assets/logo.png" alt="logo">
+            </div>
     
+            
+            <div>
+                <ul class="nav-links">
+                   <li><a href="">Speakers</a></li>
+                   <li><a href="">Schedule</a></li>
+                   <li><a href="">Tracks</a></li>
+                   <li><a href="">Venue</a></li>
+                   <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+
+
+            <div>
+                <button class="btn">Register now</button>
+            </div>
+
+        </nav>
+
+    </header>  
+
+
+    <section class="hero-section">
+
+        <div>
+
+        <img src="./assets/banner.jpg" alt="">
+
+        <div class="hero-content">
+            <h1><em>Code. Connect. Create</em></h1>
+            <p>Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. Three days of cutting-edge talks, hands-on workshops, and meaningful connections.</p>
+            <button class="btn">Register now</button>
+        </div>
+
+        </div>
+
+    </section>  
+    
+    
+    <section class="speaker-section">
+
+        <h1>Meet the Speakers</h1>
+
+
+        <div class="speaker-cards">
+
+        <div class="speaker">
+            <img src="./assets/andrej.png" alt="">
+            <p class="s-top">AI/ML</p>
+            <h2>Andrej Karpathy</h2>
+            <p class="s-bottom">Pretraining Team, Anthorpic</p>
+        </div>
+
+
+        <div class="speaker">
+            <img src="./assets/demis.png" alt="">
+            <p class="s-top">CLOUD & DEVOPS</p>
+            <h2>Demis Hassabis</h2>
+            <p class="s-bottom">Co-Founder & CEO, Google DeepMind</p>
+        </div>
+
+
+        <div class="speaker">
+            <img src="./assets/gary.png" alt="">
+            <p class="s-top">FRONTEND</p>
+            <h2>Gary Marcus</h2>
+            <p class="s-bottom">Staff Engineer, Vercel</p>
+        </div>
+
+
+        <div class="speaker">
+            <img src="./assets/mustafa.png" alt="">
+            <p class="s-top">SECURITY</p>
+            <h2>Mustafa Suleyman</h2>
+            <p class="s-bottom">CEO of Microsoft AI</p>
+        </div>
+
+        </div>  
+
+
+
+
+    </section>
+    
+    
+    <section class="price">
+        
+        <div class="price-header">
+        <h1>Secure Your Spot</h1>
+        <p>Early-bird pricing ends August 15 2026</p>
+        </div>
+
+        <div class="cards">
+
+            <div class="white-card">
+                
+                <h4 class="w-top">STANDARD</h4>
+                <h1 class="w-price">$399</h1>
+                <p class="w-bottom">per person</p>
+
+                <hr>
+
+                <ul>
+                   <li>Access to all 3 conference days</li>
+                   <li>48 curated technical talks</li>
+                   <li>2 workshop sessions</li>
+                   <li>Networking lunch & coffee breaks</li>
+                   <li>Conference swag bag</li>
+                   <li>Digital recordings (30 days)</li>
+                </ul>
+
+                <button id="left-btn">Get Standard</button>
+
+            </div>
+
+
+
+
+            <div class="blue-card">
+                <h4 class="b-top">PRO</h4>
+
+                <h1 class="b-price">$749</h1>
+                <p class="b-bottom">per person</p>
+
+                <hr>
+
+                <ul>
+                   <li>Everything in Standard</li>
+                   <li>Unlimited workshop access</li>
+                   <li>Speaker meet & greet</li>
+                   <li>VIP networking dinner</li>
+                   <li>Lifetime recording access</li>
+                   <li>1-on-1 mentorship (30 min)</li>
+                </ul>
+
+                <button id="middle-btn">Get Pro</button>
+
+            </div>
+
+
+
+
+            <div class="white-card">
+                <h4 class="w-top">TEAM</h4>
+
+                <h1 class="w-price">$5,999</h1>
+                <p class="w-bottom">up to 10 people</p>
+
+                <hr>
+
+                <ul>
+                   <li>Everything in Pro (10 seats)</li>
+                   <li>Dedicated team lounge access</li>
+                   <li>Private workshop booking</li>
+                   <li>Company logo on event page</li>
+                   <li>Recruitment booth (1 day)</li>
+                   <li>Priority customer support</li>
+                </ul>
+
+                <button id="right-btn">Contact Us</button>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-top">
+
+            <div class="footer-contents">
+                <img src="assets/footer-logo.png" alt="Logo">
+                <a href="">Privacy Policy</a>
+                <a href="">Terms of Service</a>
+            </div>
+
+
+            <div class="footer-contents">
+                <a href=""><img src="assets/facebook.png" alt="Facebook"></a>
+                <a href=""><img src="assets/twitter.png" alt="Twitter"></a>
+                <a href=""><img src="assets/instagram.png" alt="Instagram"></a>
+            </div>
+
+        </div>
+        
+        <hr>
+
+        <div class="footer-bottom">
+            <p>© 2026 DevConf. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
