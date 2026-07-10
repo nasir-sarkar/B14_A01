@@ -69,6 +69,16 @@ nav {
 }
 
 
+.hero-section {
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+
 .hero-content {
     position: absolute; 
     top: 50%;
